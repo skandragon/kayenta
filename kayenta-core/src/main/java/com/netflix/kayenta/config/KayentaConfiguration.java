@@ -45,6 +45,7 @@ import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKN
 @Configuration
 @Slf4j
 @ComponentScan({
+  "com.netflix.kayenta.backgroundjob.config",
   "com.netflix.kayenta.canary",
   "com.netflix.kayenta.config",
   "com.netflix.kayenta.events",
